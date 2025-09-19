@@ -1,0 +1,36 @@
+4.1 
+-Kiến trúc và mô hình lập trình
++Mô hình client–server.
++Kiến trúc ASP.NET: Web Forms, MVC, Razor Pages, Blazor.
++Vòng đời request–response trong ASP.NET.
+
+4.2 
+-Cấu trúc ứng dụng ASP.NET
++Thư mục Controllers, Views, Models.
++File Program.cs, Startup.cs (hoặc Global.asax trong phiên bản cũ).
+appsettings.json và cấu hình middleware.
+
+4.3 
+-Routing cơ bản
++Khái niệm route.
++Cách định nghĩa route mặc định.
+
+4.4 
+-MVC Pattern
++Vai trò Model, View, Controller.
++Cách dữ liệu di chuyển giữa các lớp.
+
+4.5 
+-Razor & View Engine
++Cú pháp Razor (@{}, @Model, @Html.DisplayFor).
++Layout, partial view.
+
+4.6 
+-Dependency Injection cơ bản
++Khái niệm và vai trò.
++Đăng ký service trong container.
+
+4.7 
+-Làm việc với Model
++Entity classes.
++Data annotation validation.
