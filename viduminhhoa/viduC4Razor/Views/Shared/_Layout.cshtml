@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Demo Razor</title>
+</head>
+<body>
+    <header style="background:lightgray;padding:10px">
+        <h1>Demo Razor Layout</h1>
+        <nav>
+            <a asp-controller="Product" asp-action="Index">Danh sách</a> |
+            <a asp-controller="Product" asp-action="Create">Thêm mới</a>
+        </nav>
+    </header>
+
+    <main style="margin:20px">
+        @RenderBody()
+    </main>
+
+    <footer style="background:lightgray;padding:10px;text-align:center">
+        &copy; 2025 - Demo Razor
+    </footer>
+</body>
+</html>

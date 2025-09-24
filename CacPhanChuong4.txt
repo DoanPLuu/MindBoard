@@ -34,3 +34,8 @@ appsettings.json và cấu hình middleware.
 -Làm việc với Model
 +Entity classes.
 +Data annotation validation.
+
+Cau truc viet
+a. ly thuyet khai niem
+b. giai thich minh hoa
+c. code mau

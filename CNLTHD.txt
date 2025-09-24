@@ -1,0 +1,116 @@
+Chương 4: Các khái niệm cơ bản trong ASP.NET
+Kiến trúc và mô hình lập trình
+Mô hình client–server.
+Kiến trúc ASP.NET: Web Forms, MVC, Razor Pages, Blazor.
+Vòng đời request–response trong ASP.NET.
+Cấu trúc ứng dụng ASP.NET
+Thư mục Controllers, Views, Models.
+File Program.cs, Startup.cs (hoặc Global.asax trong phiên bản cũ).
+appsettings.json và cấu hình middleware.
+Routing cơ bản
+Khái niệm route.
+Cách định nghĩa route mặc định.
+MVC Pattern
+Vai trò Model, View, Controller.
+Cách dữ liệu di chuyển giữa các lớp.
+Razor & View Engine
+Cú pháp Razor (@{}, @Model, @Html.DisplayFor).
+Layout, partial view.
+Dependency Injection cơ bản
+Khái niệm và vai trò.
+Đăng ký service trong container.
+Làm việc với Model
+Entity classes.
+Data annotation validation.
+
+Chương 5: Xử lý dữ liệu và Form
+Tạo form HTML với Tag Helpers (<form asp-action=...>).
+Model Binding: cách ASP.NET map dữ liệu form → model.
+Validation phía server và client.
+Binding phức tạp (collection, nested object).
+
+Chương 6: Vòng đời, Middleware và State Management
+Pipeline xử lý request trong ASP.NET.
+Middleware: cách thêm, thứ tự thực thi, ví dụ custom middleware.
+State management: Session, Cookies, TempData, ViewData, ViewBag.
+
+Chương 7: Định tuyến (Routing) nâng cao
+Attribute Routing ([Route("products/{id}")]).
+Route constraints, optional parameters.
+Tạo custom route handler.
+
+Chương 8: Làm việc với Cơ sở dữ liệu
+Cấu hình Entity Framework Core.
+Migrations: tạo, cập nhật database.
+CRUD với DbContext.
+Repository Pattern và tách tầng.
+
+Chương 9: Tương tác với API
+Tạo RESTful API với ASP.NET Core Web API.
+Sử dụng HttpClient để gọi API từ client hoặc từ service khác.
+JSON serialization/deserialization.
+Swagger/OpenAPI để tài liệu hóa API.
+
+Chương 10: Bảo mật và Xác thực
+Authentication vs Authorization.
+Cấu hình Identity trong ASP.NET.
+Tích hợp OAuth2, JWT token.
+CSRF protection, input sanitization.
+
+Chương 11: Tối ưu hóa và Triển khai
+Caching (in-memory, distributed).
+Logging (Serilog, NLog).
+Triển khai trên IIS, Docker, hoặc cloud (Azure App Service).
+Debugging & profiling ứng dụng.
+
+Timeline------------------
+Tuần 3 – Cơ bản và Kiến trúc
+Nắm mô hình client–server.
+Hiểu kiến trúc ASP.NET (Web Forms, MVC, Razor Pages, Blazor – chọn MVC làm trọng tâm).
+Vòng đời request–response.
+Cấu trúc ứng dụng: Controllers, Views, Models, Program.cs, Startup.cs, appsettings.json.
+Routing cơ bản.
+MVC pattern và cách dữ liệu di chuyển.
+Cú pháp Razor cơ bản, layout, partial view.
+Tuần 4 – Form và Xử lý dữ liệu
+
+Tạo form với Tag Helpers.
+Model Binding, validation server & client.
+Binding phức tạp: collection, nested object.
+Dependency Injection cơ bản: đăng ký service.
+Entity classes và data annotation validation.
+
+Tuần 5 – Middleware và State
+Vòng đời request trong ASP.NET Core.
+Middleware: thứ tự, ví dụ custom middleware.
+State management: Session, Cookies, TempData, ViewData, ViewBag.
+
+Tuần 6 – Database
+Cấu hình EF Core.
+Tạo Migrations, cập nhật database.
+CRUD với DbContext.
+Repository pattern, tách tầng.
+
+Tuần 7 – API và Routing nâng cao
+Attribute routing, constraints, optional params.
+Tạo REST API với ASP.NET Core Web API.
+Gọi API bằng HttpClient.
+JSON serialization.
+Thêm Swagger/OpenAPI.
+
+Tuần 8 – Bảo mật, Tối ưu, Triển khai
+Authentication vs Authorization.
+Identity, OAuth2, JWT.
+CSRF protection, input sanitization.
+Caching, logging.
+Triển khai ứng dụng (IIS/Docker/Azure).
+Debugging và profiling.
+
+Đồ án Quản lý lịch trình cá nhân hoặc tập thể:
+Chương 4–5: CRUD cho task, form thêm/sửa/xóa, validation dữ liệu.
+Chương 6: Middleware log request, quản lý session để lưu filter/sort.
+Chương 7: Attribute routing cho các endpoint: /tasks/{id}, route constraint với id kiểu int.
+Chương 8: EF Core quản lý bảng Task, migration, repository pattern.
+Chương 9: Expose API cho mobile app hoặc JS frontend, gọi API lấy danh sách task.
+Chương 10: Đăng nhập/đăng ký người dùng, phân quyền (task riêng cho mỗi user), bảo vệ CSRF.
+Chương 11: Thêm caching danh sách task, logging thao tác, triển khai thử trên IIS hoặc Docker.
